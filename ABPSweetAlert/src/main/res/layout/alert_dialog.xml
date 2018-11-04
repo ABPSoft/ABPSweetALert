@@ -75,7 +75,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/success_circle"/>
         
-        <ir.aminbahrami.android.libs.abpsweetalert.SuccessTickView
+        <com.aminbahrami.abpsweetalert.SuccessTickView
             android:id="@+id/success_tick"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
@@ -111,7 +111,7 @@
         android:orientation="vertical"
         android:visibility="gone">
         
-        <ir.aminbahrami.android.libs.abpsweetalert.ProgressWheel
+        <com.aminbahrami.abpsweetalert.ProgressWheel
             android:id="@+id/progressWheel"
             android:layout_width="80dp"
             android:layout_height="80dp"
